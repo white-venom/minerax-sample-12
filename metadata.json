@@ -1,0 +1,8 @@
+{
+  "name": "Minerax",
+  "description": "Global Steel Group corporate homepage emphasizing scale, global reach, and industrial strength.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
