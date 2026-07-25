@@ -30,12 +30,7 @@ export function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-2 group">
-          <div className={`w-8 h-8 flex items-center justify-center rounded-sm transition-colors ${isScrolled ? 'bg-black text-white' : 'bg-white text-black'}`}>
-            <span className="font-bold text-xl leading-none">M</span>
-          </div>
-          <span className={`font-extrabold text-2xl tracking-tight transition-colors ${isScrolled ? 'text-black' : 'text-white'}`}>
-            MINERAX
-          </span>
+          <img src="/logo_bw.jpeg" alt="Minerax Logo" className="h-10 w-auto rounded object-contain shadow-sm" />
         </a>
 
         {/* Desktop Nav */}

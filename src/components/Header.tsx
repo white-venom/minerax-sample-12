@@ -21,9 +21,9 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
         {/* Strict Black-White Minerax Logo */}
-        <div className="flex items-center justify-center bg-slate-900 text-white px-4 py-2 border-2 border-slate-900 hover:bg-white hover:text-slate-900 transition-colors duration-300 cursor-pointer">
-          <span className="font-bold tracking-[0.2em] text-lg uppercase">Minerax</span>
-        </div>
+        <a href="/" className="flex items-center gap-2 group">
+          <img src="/logo_bw.jpeg" alt="Minerax Logo" className="h-10 w-auto rounded object-contain shadow-sm" />
+        </a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">

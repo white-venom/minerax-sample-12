@@ -5,19 +5,19 @@ import { motion, AnimatePresence } from 'motion/react';
 const slides = [
   {
     id: 1,
-    image: 'https://images.unsplash.com/photo-1587582423116-ec07293f0395?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/ai_asset_12.jpg',
     title: 'FORGING THE FUTURE',
     subtitle: 'Unyielding strength for a rapidly developing world. Minerax produces over 50 million tons of premium steel annually.',
   },
   {
     id: 2,
-    image: 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/ai_asset_12.jpg',
     title: 'GLOBAL SCALE',
     subtitle: 'Connecting continents. Our logistics network ensures seamless delivery to 85+ countries worldwide.',
   },
   {
     id: 3,
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop',
+    image: '/assets/ai_asset_12.jpg',
     title: 'BUILDING TOMORROW',
     subtitle: 'The structural backbone of modern architecture. Engineered for resilience and sustainability.',
   },

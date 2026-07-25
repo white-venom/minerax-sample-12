@@ -20,7 +20,7 @@ export default function App() {
           <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-16">
             <div className="lg:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2070&auto=format&fit=crop" 
+                src="/assets/ai_asset_9.jpg" 
                 alt="Steel manufacturing process" 
                 className="w-full aspect-square object-cover shadow-2xl"
               />

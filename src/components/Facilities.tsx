@@ -51,7 +51,7 @@ export function Facilities() {
             {/* Main Image */}
             <div className="absolute top-0 right-0 w-[80%] h-[70%] z-10 overflow-hidden group">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80" 
+                src="/assets/ai_asset_10.jpg" 
                 alt="Precision Machining"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -61,7 +61,7 @@ export function Facilities() {
             {/* Secondary Image */}
             <div className="absolute bottom-0 left-0 w-[60%] h-[50%] z-20 overflow-hidden shadow-2xl group">
               <img 
-                src="https://images.unsplash.com/photo-1565439399-eb39b812fcc7?auto=format&fit=crop&q=80" 
+                src="/assets/ai_asset_10.jpg" 
                 alt="Quality Inspection"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
