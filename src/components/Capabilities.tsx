@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Settings, ShieldCheck, Flame, Factory } from 'lucide-react';
 
 const capabilities = [
