@@ -49,20 +49,20 @@ export function Facilities() {
             className="relative h-[600px] w-full"
           >
             {/* Main Image */}
-            <div className="absolute top-0 right-0 w-[80%] h-[70%] z-10 overflow-hidden group">
+            <div className="absolute top-0 right-0 w-[80%] h-[70%] z-10 overflow-hidden group rounded-xl shadow-xl">
               <img 
-                src="/assets/ai_asset_10.jpg" 
-                alt="Precision Machining"
+                src="/assets/ai_asset_9.jpg" 
+                alt="Precision Metal Casting Mill"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 border-4 border-white/20 pointer-events-none" />
             </div>
             
             {/* Secondary Image */}
-            <div className="absolute bottom-0 left-0 w-[60%] h-[50%] z-20 overflow-hidden shadow-2xl group">
+            <div className="absolute bottom-0 left-0 w-[60%] h-[50%] z-20 overflow-hidden rounded-xl shadow-2xl group border-2 border-white">
               <img 
-                src="/assets/ai_asset_10.jpg" 
-                alt="Quality Inspection"
+                src="/assets/ai_foundry_furnace.png" 
+                alt="Molten Furnace Inspection"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>

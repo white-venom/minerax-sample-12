@@ -5,21 +5,21 @@ import { motion, AnimatePresence } from 'framer-motion';
 const slides = [
   {
     id: 1,
-    image: '/assets/ai_asset_12.jpg',
-    title: 'FORGING THE FUTURE',
-    subtitle: 'Unyielding strength for a rapidly developing world. Minerax produces over 50 million tons of premium steel annually.',
+    image: '/assets/ai_foundry_furnace.png',
+    title: 'PRECISE METAL CASTING',
+    subtitle: 'High-precision alloy casting and continuous steel manufacturing engineered for extreme industrial performance.',
   },
   {
     id: 2,
-    image: '/assets/ai_asset_12.jpg',
-    title: 'GLOBAL SCALE',
-    subtitle: 'Connecting continents. Our logistics network ensures seamless delivery to 85+ countries worldwide.',
+    image: '/assets/ai_steel_components.png',
+    title: 'ADVANCED METALLURGY',
+    subtitle: 'From induction furnace melting to custom-engineered cast components with zero porosity tolerances.',
   },
   {
     id: 3,
-    image: '/assets/ai_asset_12.jpg',
-    title: 'BUILDING TOMORROW',
-    subtitle: 'The structural backbone of modern architecture. Engineered for resilience and sustainability.',
+    image: '/assets/ai_factory_facility.png',
+    title: '500,000 SQ FT FOUNDRY',
+    subtitle: 'Equipped with automated moulding lines, electric arc furnaces, and AI-powered quality inspection.',
   },
 ];
 
@@ -37,7 +37,7 @@ export default function HeroSlider() {
   const prevSlide = () => setCurrent((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
 
   return (
-    <div className="relative w-full h-[85vh] overflow-hidden bg-slate-900">
+    <div className="relative w-full h-screen min-h-[650px] overflow-hidden bg-slate-900">
       <AnimatePresence mode="wait">
         <motion.div
           key={current}

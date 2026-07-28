@@ -20,9 +20,14 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
-        {/* Strict Black-White Minerax Logo */}
         <a href="/" className="flex items-center gap-2 group">
-          <img src="/logo_bw.jpeg" alt="Minerax Logo" className="h-10 w-auto rounded object-contain shadow-sm" />
+          <img 
+            src="/logo.png" 
+            alt="Minerax Logo" 
+            className={`w-auto object-contain transition-all duration-300 ${
+              isScrolled ? 'h-10' : 'h-14 md:h-16 brightness-0 invert'
+            }`} 
+          />
         </a>
 
         {/* Desktop Navigation */}
