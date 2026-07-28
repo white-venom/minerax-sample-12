@@ -51,8 +51,8 @@ export function Facilities() {
             {/* Main Image */}
             <div className="absolute top-0 right-0 w-[80%] h-[70%] z-10 overflow-hidden group rounded-xl shadow-xl">
               <img 
-                src="/assets/ai_asset_9.jpg" 
-                alt="Precision Metal Casting Mill"
+                src="/assets/ai_factory_facility.png" 
+                alt="State of the Art Foundry Facility"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 border-4 border-white/20 pointer-events-none" />

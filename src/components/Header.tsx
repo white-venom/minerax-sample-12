@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
-export default function Header() {
+interface HeaderProps {
+  onOpenRfq?: () => void;
+}
+
+export default function Header({ onOpenRfq }: HeaderProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -47,11 +51,14 @@ export default function Header() {
 
         {/* Contact Button */}
         <div className="hidden md:block">
-          <button className={`px-6 py-2.5 text-sm font-bold tracking-wide uppercase border transition-colors ${
-            isScrolled 
-              ? 'border-slate-900 text-slate-900 hover:bg-slate-900 hover:text-white' 
-              : 'border-white text-white hover:bg-white hover:text-slate-900'
-          }`}>
+          <button 
+            onClick={onOpenRfq}
+            className={`px-6 py-2.5 text-sm font-bold tracking-wide uppercase border transition-colors ${
+              isScrolled 
+                ? 'border-slate-900 text-slate-900 hover:bg-slate-900 hover:text-white' 
+                : 'border-white text-white hover:bg-white hover:text-slate-900'
+            }`}
+          >
             Contact Sales
           </button>
         </div>
@@ -82,7 +89,13 @@ export default function Header() {
               {item}
             </a>
           ))}
-          <button className="w-full mt-4 px-6 py-3 text-sm font-bold tracking-wide uppercase border-2 border-slate-900 text-slate-900 hover:bg-slate-900 hover:text-white transition-colors">
+          <button 
+            onClick={() => {
+              setMobileMenuOpen(false);
+              onOpenRfq?.();
+            }}
+            className="w-full mt-4 px-6 py-3 text-sm font-bold tracking-wide uppercase border-2 border-slate-900 text-slate-900 hover:bg-slate-900 hover:text-white transition-colors"
+          >
             Contact Sales
           </button>
         </div>

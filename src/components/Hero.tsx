@@ -8,7 +8,7 @@ export function Hero() {
       <div 
         className="absolute inset-0 z-0 opacity-40 scale-105"
         style={{
-          backgroundImage: 'url("/assets/ai_asset_11.jpg")',
+          backgroundImage: 'url("/assets/ai_factory_facility.png")',
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundAttachment: 'fixed',

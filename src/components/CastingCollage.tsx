@@ -40,7 +40,7 @@ const galleryItems: GalleryItem[] = [
     id: 4,
     title: 'Spectroscopy Quality Analysis Lab',
     category: 'lab',
-    image: '/assets/ai_asset_1.jpg',
+    image: '/assets/ai_steel_components.png',
     span: 'col-span-1 md:col-span-2 row-span-1',
     desc: 'Laser x-ray inspection and elemental breakdown analysis of high-performance castings.',
   },
